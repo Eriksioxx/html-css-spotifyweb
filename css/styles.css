@@ -134,14 +134,17 @@ padding-top: 20px;
 /* central page */
 /* HEADER */
 header {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     
-    justify-content: flex-end;
-    align-items: center;   
+    width: calc(100% - 200px);
+
+    position: fixed;
     
-    flex-basis: 10%;
+
+
+    /* justify-content: flex-end; */
+    
 }
 
 header h3 {
@@ -151,6 +154,8 @@ header h3 {
     border-radius: 30px;
     padding: 10px 35px;
     margin: 20px 10px 20px 0;
+
+    float: right;
 }
 
 /* MAIN */
@@ -160,9 +165,7 @@ main {
     
     flex-direction: column;
 
-    padding: 0 20px;
-
-
+    padding: 80px 20px 0 20px;
 }
 
 .navigator-main {
