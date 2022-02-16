@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+    display: flex;
+}
+
+.central-page {
+    border: 1px solid blue;
+    height: 90vh;
+    width: 84%;
+}
+
+/* playlist */
+nav {
+    border: 1px solid red;
+    height: 90vh;
+    width: 16%;
+}
+/* / playlist */
+
+/* central page */
+header {
+    border: 1px solid rgb(161, 111, 3);
+    height: 8vh;
+}
+
+main {
+    border: 1px solid rgb(65, 21, 62);
+    height: 82vh;
+}
+/* / central page */
+
+/* footer */
+footer {
+    border: 1px solid rgb(43, 255, 0);
+    height: 10vh;
+    width: 100%;
+}
+/* / footer */
