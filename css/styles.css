@@ -129,7 +129,7 @@ padding-top: 20px;
 /* central page */
 /* HEADER */
 header {
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 8vh;
     color: white;
     
@@ -158,6 +158,8 @@ main {
     flex-direction: column;
 
     padding: 0 20px;
+
+    overflow-y: scroll;
 }
 
 .navigator-main {
@@ -242,6 +244,10 @@ main > p {
     padding-bottom: 20px;
 }
 
+main .third-row img {
+    border-radius: 50%;
+}
+
 /* / central page */
 
 /* footer */
@@ -251,5 +257,6 @@ footer {
     width: 100%;
 
     display: fixed;
+    z-index: 99;
 }
 /* / footer */
