@@ -270,6 +270,7 @@ footer {
     align-items: center;
 }
 
+/* FOOTER SX */
 .footer-sx {
     flex-direction: row;
     justify-content: space-around;
@@ -300,14 +301,125 @@ footer {
     margin-left: 10px;
 }
 
-footer-sx div:nth-child(3) {
+.footer-sx div:nth-child(3) {
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-
+    justify-content: space-between;
+    align-items: center;
     color: #72757a;
-    
     margin-left: 30px;
 }
-.footer-sx 
+
+.footer-sx div:nth-child(3)>span {
+    margin: 0 8px;
+    font-size: 15px;
+}
+
+/* FOOTER CENTER */
+.footer-center {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-center .player {
+    width: 200px;
+}
+
+.footer-center ul {
+    list-style-type: none;
+    color: white;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-center li {
+    font-size: 13px;
+}
+
+.footer-center li:nth-child(3) {
+    font-size: 28px;
+}
+
+
+.footer-center .progress {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    
+}
+
+.footer-center span {
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    margin: 0 20px;
+}
+
+.footer-center .progress-bar {
+    width: 400px;
+    background-color: #595959;
+}
+
+.footer-center .progress-play {
+    width: 75px;
+    border: 1px solid #bdbdbd;
+    float: left;
+
+    position: relative;
+}
+
+.footer-center .pointer {
+    position: absolute;
+    right: -15px;
+    top: 0px;
+    transform: translate(-50%, -50%);
+
+    width: 10px;
+    height: 10px;
+    background: #3b5998;
+    border-radius: 50%
+}
+
+/* FOOTER-DX */
+.footer-dx {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-dx span {
+    color: #bdbdbd;
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+.footer-dx .volume {
+    width: 100px;
+    background-color: #595959;
+
+    margin-right: 20px;
+}
+
+.footer-dx .volume-stats {
+    width: 25px;
+    border: 1px solid #bdbdbd;
+
+    position: relative;
+}
+
+.footer-dx .pointer {
+    position: absolute;
+    right: -15px;
+    top: 0px;
+    transform: translate(-50%, -50%);
+
+    width: 10px;
+    height: 10px;
+    background: #3b5998;
+    border-radius: 50%
+}
+
+
 /* / footer */
