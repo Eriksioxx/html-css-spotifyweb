@@ -256,8 +256,5 @@ footer {
     background-color: #282828;
     height: 10vh;
     width: 100%;
-
-    position: fixed;
-    z-index: 2;
 }
 /* / footer */
