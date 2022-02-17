@@ -72,13 +72,8 @@ main .row-standard .play-icon:hover>span,
 
 /* playlist */
 nav {
-    height: 90vh;
-    width: 16%;
-
     background-color: #000000;
     color: #a3a3a3;
-
-    flex-direction: column;
 }
 
 nav p span{
@@ -103,6 +98,10 @@ padding-top: 20px;
 .high-nav h5,
 .high-nav img {
     padding-left: 15px;
+}
+
+#playlist {
+    width: 100%;
 }
 
 .high-nav p {
@@ -179,10 +178,10 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     
-    width: calc(100% - 14%);
+    min-width: calc(100% - 180px);
 
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 header h3 {
@@ -191,7 +190,7 @@ header h3 {
     border: 1px solid white;
     border-radius: 30px;
     padding: 10px 35px;
-    margin: 20px 10px 20px 0;
+    margin: 20px 30px 20px 0;
 
     float: right;
 
@@ -333,8 +332,6 @@ footer {
 .footer-sx {
     flex-direction: row;
     justify-content: space-around;
-
-    flex-shrink: 2;
 }
 
 .footer-sx img {

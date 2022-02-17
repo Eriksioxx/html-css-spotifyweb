@@ -1,0 +1,42 @@
+@media screen and (max-height: 1024px) {
+#footer-responsive {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.low-nav {
+    position: sticky;
+    z-index: 1;
+}
+
+}
+
+
+@media screen and (max-width: 440px){
+/* FOOTER */
+
+    footer {
+        margin: 0 auto;
+    }
+
+    .footer-sx,
+    .footer-dx, 
+    .footer-center {
+        flex-shrink: 2;
+    }
+
+    .footer-center .player {
+        width: 30%;
+    }
+
+    .footer-center .progress-bar {
+        width: 150px;
+    } 
+
+    .footer-dx .volume {
+        width: 40px;
+    }
+}
+
