@@ -27,6 +27,11 @@
     overflow-y: auto;
 }
 
+.central-page::-webkit-scrollbar {
+    width: 5px;
+    background: rgb(0, 0, 0);
+  }
+
 /* Utilities */
 .flex {
     display: flex;
@@ -316,7 +321,7 @@ main .third-row h5 {
 /* footer */
 footer {
     background-color: #282828;
-    height: 90px;
+    height: 85px;
     width: 100%;
 
     flex-direction: row;
