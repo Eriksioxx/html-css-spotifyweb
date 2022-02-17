@@ -1,42 +1,129 @@
 @media screen and (max-height: 1024px) {
-#footer-responsive {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    z-index: 2;
+    #footer-responsive {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .low-nav {
+        position: sticky;
+        z-index: 1;
+    }
+
 }
 
-.low-nav {
-    position: sticky;
-    z-index: 1;
+@media screen and (max-width: 1024px){
+    /* MAIN */    
+    header {
+        min-width: calc(100% - 160px);
+    }
 }
 
+@media screen and (max-width: 768px){
+    /* MAIN */    
+    header {
+        min-width: calc(100% - 145px);
+    }
+    
+    .navigator-main {
+        flex-wrap: wrap;
+        height: 100px;
+    }
+
+        
+    /* FOOTER */
+    .footer-sx {
+        flex-grow: 1;
+        width: 40%;
+    }
+
+    .footer-dx {
+        flex-grow: 1;
+        width: 40%;
+    }
+
+    .footer-sx div:nth-child(3) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0;        
+    }
+    
 }
 
+@media screen and (max-width: 490px){
+    /* NAV */
+    .navigator {
+        width: 50px;
+    }
 
-@media screen and (max-width: 440px){
-/* FOOTER */
+    .high-nav #logo-small {
+        display: inline-block;
 
+        height: 30px;
+        padding: 0 80px 0 0;
+    }
+    
+    nav p span,
+    .high-nav > img:first-child,
+    .high-nav #playlist,
+    .high-nav h5 {
+        display: none;
+    }
+
+    .low-nav p span:first-child {
+        display: inline-block;
+    }
+
+    .low-nav p:first-child {
+        border-bottom: none;
+    }
+
+
+
+    /* MAIN */
+    header {
+        min-width: calc(100% - 30px);
+    }
+        
+    .navigator-main {
+        flex-wrap: wrap;
+    }
+
+    /* FOOTER */
     footer {
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
-    .footer-sx,
-    .footer-dx, 
-    .footer-center {
-        /* flex-shrink: 2; */
+    .footer-sx {
+        flex-grow: 1;
+        width: 40%;
     }
-
-    .footer-center .player {
+ 
+    .footer-sx img {
         width: 30%;
+        height: 30%;
+        margin-left: 20px;
     }
 
-    .footer-center .progress-bar {
-        width: 150px;
-    } 
+    .footer-dx {
+        flex-grow: 2;
+    }
 
-    .footer-dx .volume {
-        width: 40px;
+    .footer-center {
+        flex-shrink: 2;
+    }
+
+    .footer-sx div:nth-child(3) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0;
+    }
+    .footer-dx span {
+        margin: 0 2px;
     }
 }
-
