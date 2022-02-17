@@ -81,6 +81,13 @@
         border-bottom: none;
     }
 
+    .high-nav img+p {
+        border-left: none;
+    }
+
+    .low-nav i {
+        margin: 0px 0px 0px 4px;
+    }
 
 
     /* MAIN */

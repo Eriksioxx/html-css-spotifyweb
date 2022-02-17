@@ -47,12 +47,16 @@ header h3:hover {
 }
 
 .navigator-main li:hover,
-nav p span:hover,
-.high-nav p img:hover,
+nav p:hover span,
 .footer-sx p:hover,
 .footer-sx div:nth-child(3)>span:hover,
 .footer-dx span:hover {
     color: white;
+}
+
+.high-nav p:hover img,
+.high-nav p:hover #playlist {
+    filter: invert(0.8);
 }
 
 .footer-center ul li:nth-child(3):hover {
