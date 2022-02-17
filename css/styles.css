@@ -180,6 +180,7 @@ header {
     
     min-width: calc(100% - 180px);
 
+
     position: fixed;
     z-index: 3;
 }
@@ -332,6 +333,8 @@ footer {
 .footer-sx {
     flex-direction: row;
     justify-content: space-around;
+
+    width: 20%;
 }
 
 .footer-sx img {
@@ -378,11 +381,17 @@ footer {
     justify-content: center;
     align-items: center;
 
-    flex-shrink: 2;
+    width: 80%;
+
+}
+
+.footer-center .width-player {
+    width: 100%;
+    justify-content: center;
 }
 
 .footer-center .player {
-    width: 200px;
+    width: 25%;
 }
 
 .footer-center ul {
@@ -404,10 +413,13 @@ footer {
 
 
 .footer-center .progress {
-    justify-content: space-between;
+    width: 100%;
+
+    justify-content: center;
     align-items: center;
     padding: 5px 0;    
 }
+
 
 .footer-center span {
     font-size: 8px;
@@ -417,12 +429,12 @@ footer {
 }
 
 .footer-center .progress-bar {
-    width: 400px;
+    width: 45%;
     background-color: #595959;
 }
 
 .footer-center .progress-play {
-    width: 75px;
+    width: 25%;
     border: 1px solid #bdbdbd;
     float: left;
 
@@ -449,7 +461,7 @@ footer {
     justify-content: center;
     align-items: center;
 
-    flex-shrink: 2;
+    width: 20%;
 }
 
 .footer-dx span {

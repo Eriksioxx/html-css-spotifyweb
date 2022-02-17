@@ -24,7 +24,7 @@
     .footer-sx,
     .footer-dx, 
     .footer-center {
-        flex-shrink: 2;
+        /* flex-shrink: 2; */
     }
 
     .footer-center .player {
